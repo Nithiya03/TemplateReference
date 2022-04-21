@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'reference';
+  title = 'template-reference';
+  firstExample:string="Example one";
+  secondExample:string="Example two";
+  
+  getValue(item:any){
+    console.warn(item);
+  }
+
+  fun(){
+    console.log("Welcome");
+  }
 }
